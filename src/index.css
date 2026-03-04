@@ -25,3 +25,10 @@ body {
   color: #38bdf8;
   transform: translateY(-4px);
 }
+.card {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}

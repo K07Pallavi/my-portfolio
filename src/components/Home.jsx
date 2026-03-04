@@ -18,14 +18,15 @@ function Home() {
         </h1>
 
         <h4 className="text-info mt-3" data-aos="fade-up" data-aos-delay="200">
-          Backend-Focused .NET Developer
+          Software Developer | Backend & System Design Enthusiast
         </h4>
 
         <p className="mt-4" data-aos="fade-up" data-aos-delay="400">
-          I build secure, high-performance REST APIs using ASP.NET Core, ABP
-          Framework, Dapper, and SQL Server. Experienced in SaaS healthcare &
-          financial analytics systems, JWT authentication, stored procedures,
-          and Razorpay integration.
+          I design and develop scalable software solutions with a strong focus
+          on backend architecture, API development, and database optimization.
+          Experienced in building SaaS applications across healthcare and
+          financial domains, implementing secure authentication systems, and
+          integrating real-world business logic into production-grade systems.
         </p>
 
         <div className="mt-4" data-aos="zoom-in">

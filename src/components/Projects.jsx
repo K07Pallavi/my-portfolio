@@ -1,12 +1,31 @@
 function Projects() {
   const projects = [
     {
-      title: "ActiveX – SaaS Healthcare Platform",
-      desc: "Developed APIs to process 77+ device-generated medical parameters. Built day-wise, month-wise analytics APIs. Integrated Razorpay payment gateway with secure verification. Implemented AI-driven health report generation using DinkToPdf.",
+      title: "ActiveX – Healthcare SaaS Platform",
+      desc: "Engineered scalable REST APIs to ingest and process high-volume medical device data (77+ parameters), delivering structured patient analytics. Implemented secure Razorpay payment workflows and automated AI-driven health report generation with server-side PDF rendering.",
+      tech: [
+        "ASP.NET Core",
+        "ABP Framework",
+        "Dapper",
+        "SQL Server",
+        "Razorpay",
+        "PuppeteerSharp",
+        "JWT Auth",
+        "Ai Integration",
+        "HTML",
+        "CSS",
+      ],
     },
     {
-      title: "PL Monitor – Financial Analytics Platform",
-      desc: "Built APIs generating quarterly & annual financial reports combining text with calculated financial data. Created complex stored procedures with multiple result sets and optimized performance using TVPs.",
+      title: "PL Monitor – Financial Analytics System",
+      desc: "Designed a financial reporting engine generating structured quarterly and annual reports by combining calculated financial data with contextual insights. Optimized database performance using complex stored procedures.",
+      tech: [
+        "ASP.NET Core",
+        "SQL Server",
+        "Stored Procedures",
+        "Dapper",
+        "JWT Auth",
+      ],
     },
   ];
 
@@ -18,10 +37,22 @@ function Projects() {
         <div className="row">
           {projects.map((p, i) => (
             <div key={i} className="col-md-6 mb-4">
-              <div className="card bg-dark text-white shadow h-100">
-                <div className="card-body">
-                  <h5 className="card-title">{p.title}</h5>
-                  <p className="card-text">{p.desc}</p>
+              <div className="card bg-dark text-white shadow h-100 border-0">
+                <div className="card-body d-flex flex-column">
+                  <h5 className="card-title fw-bold mb-3">{p.title}</h5>
+                  <p className="card-text flex-grow-1">{p.desc}</p>
+
+                  {/* Tech Stack */}
+                  <div className="mt-3">
+                    {p.tech.map((t, index) => (
+                      <span
+                        key={index}
+                        className="badge bg-secondary me-2 mb-2"
+                      >
+                        {t}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>

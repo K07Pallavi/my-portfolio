@@ -3,24 +3,32 @@ function About() {
     <div className="section">
       <div className="container">
         <h2 className="mb-4 text-center">About Me</h2>
-
         <p>
-          I am a Backend-focused Software Developer with 1.9+ years of
-          experience working at Peracto Infotech Pvt. Ltd. I specialize in
-          building secure, scalable SaaS applications using ASP.NET Core (.NET
-          6/7), ABP Framework, Dapper, Entity Framework, and SQL Server.
+          I am a backend-focused software developer passionate about building
+          scalable and reliable systems. I specialize in API-driven development,
+          database optimization, and implementing complex business logic in
+          production environments.
         </p>
 
         <p>
-          I have strong experience in multi-tenant systems, financial data
-          processing, JWT-based authentication, and integrating third-party
-          services such as Razorpay payment gateway and AI-driven report
-          generation.
+          My experience includes working on SaaS platforms in healthcare and
+          financial analytics domains, where performance, data accuracy, and
+          system stability are critical. I have designed secure authentication
+          flows, optimized stored procedures, and structured multi-tenant
+          systems.
         </p>
 
         <p>
-          I enjoy solving complex business logic problems and optimizing
-          database performance using stored procedures and query tuning.
+          In addition to backend development, I have also worked on the UI layer
+          using HTML and CSS for generating structured, print-ready PDF reports
+          from dynamic data. This involved designing clean layouts and ensuring
+          accurate rendering of AI-generated and business-driven content.
+        </p>
+
+        <p>
+          I believe strong software engineering requires not just writing code,
+          but understanding system behavior end-to-end — from data processing to
+          user-facing output.
         </p>
       </div>
     </div>
