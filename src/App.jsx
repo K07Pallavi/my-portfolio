@@ -51,7 +51,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Routes>
+      <Routes basename="/my-portfolio">
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
