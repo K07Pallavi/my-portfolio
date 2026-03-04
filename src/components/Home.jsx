@@ -38,9 +38,7 @@ function Home() {
             View Resume
           </a>
 
-          <Link to="/contact" className="btn btn-outline-light">
-            Contact Me
-          </Link>
+          <Link to="/experience">View Experience</Link>
         </div>
       </div>
     </div>

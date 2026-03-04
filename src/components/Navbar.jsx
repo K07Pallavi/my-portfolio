@@ -5,7 +5,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-dark sticky-top">
       <div className="container">
         <Link className="navbar-brand fw-bold" to="/">
-          Pallavi.dev
+          My Portfolio
         </Link>
 
         <button
@@ -40,8 +40,8 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contact">
-                Contact
+              <Link className="nav-link" to="/experience">
+                Experience
               </Link>
             </li>
           </ul>
