@@ -32,3 +32,22 @@ body {
 .card:hover {
   transform: translateY(-6px);
 }
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+body.light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Card override */
+body.light .card {
+  background-color: white;
+  color: #212529;
+}
+
+body.dark .card {
+  background-color: #1e1e1e;
+}
