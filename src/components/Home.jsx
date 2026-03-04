@@ -37,8 +37,9 @@ function Home() {
           >
             View Resume
           </a>
-
-          <Link to="/experience">View Experience</Link>
+          <Link to="/experience" className="btn btn-outline-info px-4 py-2">
+            View Experience
+          </Link>{" "}
         </div>
       </div>
     </div>
