@@ -1,5 +1,6 @@
 import AOS from "aos";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   useEffect(() => {
@@ -29,7 +30,7 @@ function Home() {
 
         <div className="mt-4" data-aos="zoom-in">
           <a
-            href="/Pallavi_Khandare_Resume.pdf"
+            href={`${import.meta.env.BASE_URL}Pallavi_Khandare_Resume.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary me-3"
@@ -37,9 +38,9 @@ function Home() {
             View Resume
           </a>
 
-          <a href="/contact" className="btn btn-outline-light">
+          <Link to="/contact" className="btn btn-outline-light">
             Contact Me
-          </a>
+          </Link>
         </div>
       </div>
     </div>
