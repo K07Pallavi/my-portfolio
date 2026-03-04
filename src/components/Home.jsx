@@ -7,24 +7,40 @@ function Home() {
   }, []);
 
   return (
-    <div className="section text-center">
+    <div
+      className="section text-center d-flex align-items-center"
+      style={{ minHeight: "90vh" }}
+    >
       <div className="container">
-        <h1 data-aos="fade-up">Hi, I'm Pallavi 👋</h1>
-        <h3 data-aos="fade-up" data-aos-delay="200">
-          .NET & React Developer
-        </h3>
+        <h1 className="fw-bold" data-aos="fade-up">
+          Hi, I'm Pallavi Khandare 👋
+        </h1>
 
-        <p data-aos="fade-up" data-aos-delay="400">
-          Building scalable APIs & modern web apps.
+        <h4 className="text-info mt-3" data-aos="fade-up" data-aos-delay="200">
+          Backend-Focused .NET Developer
+        </h4>
+
+        <p className="mt-4" data-aos="fade-up" data-aos-delay="400">
+          I build secure, high-performance REST APIs using ASP.NET Core, ABP
+          Framework, Dapper, and SQL Server. Experienced in SaaS healthcare &
+          financial analytics systems, JWT authentication, stored procedures,
+          and Razorpay integration.
         </p>
 
-        <a
-          href="/resume.pdf"
-          className="btn btn-primary mt-3"
-          data-aos="zoom-in"
-        >
-          Download Resume
-        </a>
+        <div className="mt-4" data-aos="zoom-in">
+          <a
+            href="/Pallavi_Khandare_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-primary me-3"
+          >
+            View Resume
+          </a>
+
+          <a href="/contact" className="btn btn-outline-light">
+            Contact Me
+          </a>
+        </div>
       </div>
     </div>
   );

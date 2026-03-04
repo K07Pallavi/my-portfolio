@@ -4,9 +4,9 @@ function Contact() {
       <div className="container">
         <h2>Contact Me</h2>
 
-        <p>Email: yourmail@gmail.com</p>
-        <p>LinkedIn: linkedin.com/in/yourname</p>
-        <p>GitHub: github.com/yourname</p>
+        <p>Email: pallavikhandare5333@gmail.com</p>
+        <p>LinkedIn: https://www.linkedin.com/in/pallavi-khandare-188406360/</p>
+        <p>GitHub: https://github.com/K07Pallavi</p>
       </div>
     </div>
   );
