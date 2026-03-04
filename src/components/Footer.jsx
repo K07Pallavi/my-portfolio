@@ -6,7 +6,9 @@ function Footer() {
       <div className="container text-center">
         {/* Name & Title */}
         <h5 className="fw-bold mb-1">Pallavi Khandare</h5>
-        <p className="text-secondary mb-4">Backend-Focused .NET Developer</p>
+        <p className="text-secondary mb-4">
+          Backend-Focused .NET Developer | Built with React
+        </p>
 
         {/* Social Icons */}
         <div className="d-flex justify-content-center gap-4 mb-4">
