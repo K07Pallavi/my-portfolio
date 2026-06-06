@@ -27,6 +27,37 @@ function Projects() {
         "JWT Auth",
       ],
     },
+    {
+      title: "Swaraansh Music Ticket Management System",
+      desc: "Developed an ASP.NET Web Forms application for music event ticket management. Implemented dynamic ticket generation, PDF ticket download, CSV export, and admin management features.",
+      tech: [
+        "ASP.NET Web Forms",
+        "C#",
+        "SQL Server",
+        "ADO.NET",
+        "iTextSharp",
+      ],
+    },
+    {
+      title: "Soil Moisture Detection System",
+      desc: "Built an automated irrigation system to optimize water usage using soil moisture detection. Automated water supply control based on moisture levels to reduce water loss and manual effort.",
+      tech: [
+        "Arduino Uno",
+        "GSM Module",
+        "Sensors",
+        "Motor",
+      ],
+    },
+    {
+      title: "Personal Portfolio Website",
+      desc: "Created a responsive personal portfolio website to showcase projects and skills. Designed with modern UI principles and deployed for public access.",
+      tech: [
+        "React",
+        "JavaScript",
+        "HTML",
+        "CSS",
+      ],
+    },
   ];
 
   return (
