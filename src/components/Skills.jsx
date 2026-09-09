@@ -20,10 +20,12 @@ function Skills() {
               <h5>Backend Development</h5>
               <ul className="list-unstyled mt-3">
                 <li>ASP.NET Core (.NET 6/7)</li>
+                <li>Entity Framework</li>
+                <li>ASP.NET MVC</li>
                 <li>ABP Framework</li>
                 <li>Dapper & EF Core</li>
                 <li>REST API Design</li>
-                <li>Multi-Tenant Architecture</li>
+
               </ul>
             </div>
           </div>

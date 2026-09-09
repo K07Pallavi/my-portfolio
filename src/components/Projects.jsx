@@ -128,14 +128,23 @@ function Projects() {
       ],
     },
     {
-      title: "Swaraansh Music Ticket Management System",
-      desc: "Developed an ASP.NET Web Forms application for music event ticket management. Implemented dynamic ticket generation, PDF ticket download, CSV export, and admin management features.",
+      title: "HR Management System (HRMS)",
+      desc: "Developed a Human Resource Management System using ASP.NET and C#. Worked on employee management and attendance tracking features.",
       tech: [
-        "ASP.NET Web Forms",
+        "ASP.NET",
+        "C#",
+        "Microsoft SQL Server",
+        "MVC"
+      ]
+    },
+    {
+      title: "Swaraansh Music Ticket Management System",
+      desc: "Developing an ASP.NET MVC application for music event ticket management. Implemented dynamic ticket generation, PDF ticket download, CSV export, and admin management features.",
+      tech: [
+        "ASP.NET MVC",
         "C#",
         "SQL Server",
-        "ADO.NET",
-        "iTextSharp",
+        "Entity Framework",
       ],
     },
     {

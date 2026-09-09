@@ -30,14 +30,14 @@ function Home() {
         </p>
 
         <div className="mt-4" data-aos="zoom-in">
-          <a
+          {/* <a
             href={`${import.meta.env.BASE_URL}Pallavi_Khandare_Resume.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary me-3"
           >
             View Resume
-          </a>
+          </a> */}
           <Link to="/experience" className="btn btn-outline-info px-4 py-2">
             View Experience
           </Link>{" "}
